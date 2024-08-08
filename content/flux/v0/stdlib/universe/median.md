@@ -39,7 +39,7 @@ specified `method`.
 - **Aggregate**: When using the `estimate_tdigest` or `exact_mean` methods,
   `median()` acts as an aggregate transformation and outputs the average of
   non-null records with values that fall within the 0.5 quantile (50th percentile).
-- **Selector**: When using the `exact_selector` method, `meidan()` acts as
+- **Selector**: When using the `exact_selector` method, `median()` acts as
   a selector selector transformation and outputs the non-null record with the
   value that represents the 0.5 quantile (50th percentile).
 
